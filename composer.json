@@ -1,0 +1,16 @@
+{
+  "name": "pazer-app/core",
+  "description": "Pazer.app / Core",
+  "require": {
+    "php": ">=7.4",
+    "ext-mysqli": "*",
+    "pazer-app/database-manager": "^1.2.2",
+    "pazer-app/easy-function": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PazerApp\\Core\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
